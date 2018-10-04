@@ -1,0 +1,11 @@
+galaxy_info:
+  author: Lisa Seelye
+  description: >
+    Small role to illustrate how Ansible works with a fully encrypted
+    defaults/main.yaml.
+  company: Red Hat
+  license: MIT
+  min_ansible_version: 1.2
+  galaxy_tags: []
+
+dependencies: []

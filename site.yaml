@@ -1,0 +1,8 @@
+---
+  - hosts: localhost
+    roles:
+      - full_yaml
+      - partial_yaml
+      - full_file
+    tasks:
+      - debug: msg="Be sure to check the contents output/book.txt, output/full-sample.ini, output/partial-sample.ini"
