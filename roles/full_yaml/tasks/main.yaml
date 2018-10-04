@@ -1,0 +1,5 @@
+---
+  - name: Render full-sample.ini with our secrets
+    template:
+      src: sample.ini.j2
+      dest: output/full-sample.ini

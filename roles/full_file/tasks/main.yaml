@@ -1,0 +1,5 @@
+---
+  - name: Put our book into place!
+    copy:
+      src: book.txt
+      dest: output/book.txt

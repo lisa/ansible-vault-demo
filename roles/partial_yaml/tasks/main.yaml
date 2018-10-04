@@ -1,0 +1,5 @@
+---
+  - name: Render partial-sample.ini with our secrets
+    template:
+      src: sample.ini.j2
+      dest: output/partial-sample.ini
