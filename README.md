@@ -21,9 +21,13 @@ Each of these roles will write a file to the [output][6] directory. The written 
 
 This demo comes with an `ansible.cfg` that will instruct Ansible to use a shell script ([decrypt\_password.sh][7]) to provide the password to unlock the vault. The contents of the shell script can do any kind of logic and includes some ideas. Some of the ideas to provide the vault password include using gpg to decrypt a file, using a key management service (eg Google KMS) to assist in decrypting an encrypted file containing the vault password, and so on.
 
+## Encrypting Data
+
+The `ansible-vault(1)` command interacts with vaults through `edit`s, `create` and other operations. The [documentation][1] provides clear usage instructions.
+
 # Running the demo
 
-Clone the repository and run with: `./run_demo.sh`. Or build and run with Docker:
+Clone the repository and run with: `./run_demo.sh`, or run with Docker:
 
     docker build -t ansible-demo -f Dockerfile .
     docker run ansible-demo
