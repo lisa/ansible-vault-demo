@@ -3,3 +3,8 @@
     copy:
       src: book.txt
       dest: output/book.txt
+
+  - name: Deploy the new book
+    copy:
+      src: newbook.txt
+      dest: output/newbook.txt
