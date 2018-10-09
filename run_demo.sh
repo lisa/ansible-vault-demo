@@ -21,6 +21,11 @@ if [[ $? == 0 ]]; then
   cat output/book.txt
   echo
   echo
+  
+  echo "Contents of the NEW book!"
+  cat output/newbook.txt
+  echo
+  echo
 else
   echo "Uh oh! There was a problem running the playbook :("
 fi
